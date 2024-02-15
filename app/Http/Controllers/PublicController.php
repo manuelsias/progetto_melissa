@@ -6,8 +6,8 @@ use Illuminate\Http\Request;
 
 class PublicController extends Controller
 {
-    public  function welcome() { 
-        return view('welcome');
+    public  function home() { 
+        return view('home');
     }
 
     public function chisono(){

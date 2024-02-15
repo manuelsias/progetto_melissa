@@ -29,8 +29,8 @@
 
 /* CSS */
 .button-33 {
-  background-color: #c2fbd7;
-  border-radius: 100px;
+  background-color: rgb(194, 251, 215);
+  border-radius: 15px;
   box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
   color: green;
   cursor: pointer;
@@ -45,6 +45,7 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  
 }
 
 .button-33:hover {
@@ -68,4 +69,40 @@
 }
 .card{
     border-color: transparent;
+}
+.IMGSORELLA{
+    width: 400px;
+    height: 600px;
+    border-radius: 50px;
+}
+
+
+:root{
+    --g:rgb(194, 251, 215);
+    --b:rgb(24,24,24);
+    --w:rgb(234,234,234);
+}
+
+.text-g{
+    color:var(--y);
+}
+
+.text-w{
+    color:var(--w);
+}
+
+.text-b{
+    color:var(--b);
+}
+
+.bg-g{
+    background-color: var(--y);
+}
+
+.bg-b{
+    background-color: var(--b);
+}
+
+.bg-w{
+    background-color: var(--w);
 }
