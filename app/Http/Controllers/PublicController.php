@@ -25,4 +25,7 @@ class PublicController extends Controller
     public function galleria(){
         return view('galleria');
     }
+    public function info(){
+        return view('info');
+    }
 }

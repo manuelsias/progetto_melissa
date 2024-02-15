@@ -1,8 +1,8 @@
 <x-layout>
     <x-header title="pace"/>
     <div class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-12 col-lg-12">
+        <div class="row justify-content-center my-3">
+            <div class="col-12 col-md-10 col-lg-8">
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
                       <h2 class="accordion-header">
@@ -55,7 +55,7 @@
                         <div class="accordion-item">
                         <h2 class="accordion-header">
                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                          <strong>Educazione e workshop:5</strong>  
+                          <strong>Educazione e workshop: 5</strong>  
                           </button>
                         </h2>
                         <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">

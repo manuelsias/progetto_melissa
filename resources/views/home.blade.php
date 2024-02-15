@@ -8,7 +8,9 @@
                     <div class="card-body text-center ">
                       <h5 class="card-title FONTTITLE">è per te</h5>
                       <p class="card-text FONT">qui fai vibrare l'anima e ti puoi sentire meglio</p>
-                      <button class="button-33" role="button">maggiori informazioni</button>
+                      <button class="button-33" role="button">
+                        <a class="nav-link-custom Nstylefont text-g" href="{{route('info')}}">maggiori informazioni</a>
+                      </button>
                     </div>
                   </div>
             </div>

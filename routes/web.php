@@ -19,3 +19,4 @@ Route::get('/chisono',[PublicController::class,'chisono'])->name('chisono');
 Route::get('/consulenze',[PublicController::class,'consulenze'])->name('consulenze');
 Route::get('/yoga',[PublicController::class,'yoga'])->name('yoga');
 Route::get('/galleria',[PublicController::class,'galleria'])->name('galleria');
+Route::get('/info',[PublicController::class,'info'])->name('info');
