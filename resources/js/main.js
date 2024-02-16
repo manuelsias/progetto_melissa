@@ -4,10 +4,10 @@ links.forEach((el)=>{
 
     el.addEventListener('mouseover',()=>{
         el.classList.remove('text-g');
-        el.classList.add('text-b');
+        el.classList.add('text-w');
     })
     el.addEventListener('mouseleave',()=>{
-        el.classList.remove('text-b');
+        el.classList.remove('text-w');
         el.classList.add('text-g');
     })
 

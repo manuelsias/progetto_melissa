@@ -26,7 +26,7 @@
             </button>
           </li>
           <li class="nav-item mx-5 px-3 my-2">
-            <button class="button-33" role="button" >
+            <button class="MANUEL" role="button" >
               <a class="nav-link-custom Nstylefont text-g" href="{{route('galleria')}}">galleria</a>
             </button>
           </li>
