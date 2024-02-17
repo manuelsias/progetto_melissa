@@ -22,7 +22,9 @@
     background-position: center;
 }
 .bg-color-footer{
-    background-color: #19eabd;
+    /* background-color: #19eabd; */
+    background-color: #14c19c;
+   
 }
 
 
@@ -109,8 +111,12 @@
 .manuelito{
     border-radius: 25px;
 }
+.Mnav{
+    
+   margin-left: 14vw;
+}
 
-.MANUEL{
+/* .MANUEL{
     background-color:orange;
     color:black;
     border-radius:15px;
@@ -118,6 +124,10 @@
    
 }
 .MANUEL:hover{
-    transform: scale(1.4);
-    transition:1s;
+    transform: scale(1.4) rotate(360deg);
+    transition:4s;
+    
 }
+.hello{
+    color:RED;
+} */

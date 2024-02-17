@@ -10,6 +10,12 @@ links.forEach((el)=>{
         el.classList.remove('text-w');
         el.classList.add('text-g');
     })
+    // el.addEventListener('click',()=>{
+    //     el.classList.add('hello');
+
+        
+    // })
+    
 
 
 
