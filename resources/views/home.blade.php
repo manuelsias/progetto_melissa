@@ -2,6 +2,11 @@
     <x-header title="per il tuo benessere"/>
     <div class="container-fluid my-5">
         <div class="row justify-content-start">
+          @if(session('message'))
+            <div class="alert alert-success">
+              <p class="m-0">{{session('message')}}</p>
+            </div>
+          @endif
             <div class="col-12 col-md-6">
                 <div class="card" >
                     {{-- <img src="storage\img\campana tibetana.jpg" class="card-img-top IMG" alt="..."> --}}

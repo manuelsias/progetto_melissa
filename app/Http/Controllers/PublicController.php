@@ -38,6 +38,6 @@ class PublicController extends Controller
        
         Mail::to('manuelsias97@gmail.com')->send(new ContactMail($user));
 
-        return redirect(route('home'))->with('messages','ci sei quasi');
+        return redirect(route('home'))->with('message','messaggio inviato');
     }
 }
