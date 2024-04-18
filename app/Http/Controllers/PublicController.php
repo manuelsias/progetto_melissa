@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ContactMail;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class PublicController extends Controller
 {
@@ -22,10 +24,20 @@ class PublicController extends Controller
         return view('yoga');
     }
 
-    public function galleria(){
-        return view('galleria');
+    public function contattami(){
+        return view('contattami');
     }
     public function info(){
         return view('info');
+    }
+    public function submit(Request $request){
+        $name=$request->name;
+        $email=$request->email;
+        $body=$request->body;
+        $user=compact('body','email','name');
+       
+        Mail::to('manuelsias97@gmail.com')->send(new ContactMail($user));
+
+        return redirect(route('home'))->with('messages','ci sei quasi');
     }
 }

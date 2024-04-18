@@ -1,7 +1,7 @@
-<div class="container-fluid bg-color-header py-5">
+<div class="container-fluid bg-color-header d-flex">
     <div class="row justify-content-center py-5 ">
-        <div class="col-12 py-5"> 
-            <h1 class="text-center  Hstylefont">{{$title}}</h1>
+        <div class="col-12 py-5 d-flex"> 
+            <img src="./TriangoloMeli2.png" alt="">
         </div>
     </div>
 </div>
